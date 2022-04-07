@@ -1,0 +1,532 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.navi{
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255,255,255,0);
+	position: fixed;
+	text-align: center;
+	z-index: 100;
+	transition-duration: 1.2s;
+}
+.navi-h:hover{
+	background-color: rgba(255,255,255,1);
+	transition-duration:1.2s;
+}
+.menus{
+	width: 50px;
+	height: 50px;
+	color: white;
+	margin-left: 30px;
+	margin-top: 35px;
+	float: left;
+}
+.navi-h:hover .menus a{
+	color: #137749;
+}
+.navi-h:hover .menus p{
+	color: #137749;
+}
+.menus a{
+	text-decoration: none;
+	font-size: 25px ;
+	font-weight: 100;
+	color: white;
+}
+.menus p{
+	margin-top:  2px ;
+	font-size: 13px;
+}
+.three-label{
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 35px;
+	font-size: 13px;
+}
+.three-label a{
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+.navi-h:hover .three-label a{
+	color: #137749;
+}
+.three-label1{
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 45px;
+	font-size: 13px;
+}
+.three-label1 a{
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+.navi-h:hover .three-label1 a{
+	color: #137749;
+}
+.rolex-logo{
+	margin-top: 10px;
+	width: 100px;
+	height: 70px;
+	position: relative;
+	right: 4%;
+	filter: grayscale(100%);
+}
+.navi-h:hover .rolex-logo{
+	filter: grayscale(20%);
+	transition-duration:1.2s;
+}
+.series{
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+}
+.series a{
+	text-decoration: none;
+	font-size: 20px ;
+	color: white;
+}
+.series p{
+	margin-top:  12px ;
+	font-size: 13px;
+}
+.navi-h:hover .series a{
+	color: #137749;
+}
+.navi-h:hover .series p{
+	color: #137749;
+}
+.search{
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.search a{
+	text-decoration: none;
+	font-size: 20px ;
+	color: white;
+}
+.search p{
+	margin-top:  12px ;
+	font-size: 13px;
+}
+.navi-h:hover .search a{
+	color: #137749;
+}
+.navi-h:hover .search p{
+	color: #137749;
+}
+
+/*----------------顶部-------------------*/
+
+.background100{
+	width: 100%;
+	height: auto;
+	background: url(../../../static/img/gooddetail/goodsBg.jpg) repeat-x;
+	background-color: #FFFFFF;
+}
+.background200{
+	width: 100%;
+	/*background-color: blueviolet;*/
+}
+.detail1{
+	width: 100%;
+	/*height: 977px;*/
+	/*background-color: darkcyan;*/
+}
+.detail1-banner{
+	width: 590px;
+	height: 1175px;
+
+	/*background-color: forestgreen;*/
+}
+.detail1-banner :hover a{
+	text-decoration: none;
+}
+.watch-name{
+	width: 590px;
+	height: 120px;
+	margin-top: 120px;
+	float: left;
+	/*background-color: sandybrown;*/
+}
+.banner-picture{
+	width: 590px;
+	height: auto;
+	float: left;
+	/*background-color: salmon;*/
+}
+.watch-type{
+	width: 590px;
+	height: 40px;
+  float: left;
+  font-size: 18px;
+  color: black;
+	/*background-color: #026C7A;*/
+}
+.watch-type a{
+  color: black;
+}
+.RMB a{
+  color: black;
+}
+.RMB{
+	width: 590px;
+  height: 20px;
+  font-size: 18px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	/*background-color: sandybrown;*/
+}
+.detail1-button{
+	width: 590px;
+	height: 120px;
+	float: left;
+	/*background-color: chocolate;*/
+	line-height: 50px;
+}
+.detail1-button a{
+	background-color: #127749;
+}
+.detail2{
+	width: 100%;
+	height: 143px;
+	padding-left: 110px;
+	padding-top: 20px;
+	/*background-color: saddlebrown;*/
+}
+.detail3{
+	width: 100%;
+	height: 540px;
+	margin-top: 50px;
+	/*padding-left: 110px;*/
+	/*background-color: salmon;*/
+}
+.detail3-button{
+	width: 1280px;
+	height: 2160px;
+	/*background-color: red;*/
+}
+.detail3-button h3{
+	float: left;
+}
+.detail3-button p{
+	float: left;
+	text-align: left;
+}
+.detail3-material{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: seagreen;*/
+}
+.material-text{
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin-top: 200px;
+	/*background-color: darkblue;*/
+}
+
+.material-picture{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: darkblue;*/
+}
+.dish-picture{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: darkblue;*/
+}
+.detail3-dish{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: seagreen;*/
+}
+.dish-text{
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin-top: 200px;
+	margin-left: 218px;
+	/*background-color: darkblue;*/
+}
+.detail3-watchband{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: seagreen;*/
+}
+.watchband-text{
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin-top: 200px;
+	/*background-color: darkblue;*/
+}
+.watchband-picture{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: darkblue;*/
+}
+.core-picture{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: darkblue;*/
+}
+.detail3-core{
+	width: 640px;
+	height: 540px;
+	float: left;
+	/*background-color: seagreen;*/
+}
+.core-text{
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin-top: 200px;
+	margin-left: 218px;
+	/*background-color: darkblue;*/
+}
+.detail4{
+	width: 100%;
+	height: 590px;
+	float: left;
+	/*background-color: firebrick;*/
+}
+.extend-picture{
+	width: 843px;
+	height: 520px;
+	float: left;
+	/*background-color: fuchsia;*/
+}
+.detail4-extend{
+	width: 643px;
+	height: 520px;
+	float: left;
+	/*background-color: #026FA4;*/
+}
+.extend-text{
+	width: 420px;
+	height: 200px;
+	float: left;
+	margin-top: 200px;
+	margin-left: 50px;
+	/*background-color: darkblue;*/
+}
+.detail5{
+	width: 100%;
+	height: 1002px;
+	float: left;
+	/*background-color: salmon;*/
+}
+.detail5-buttom{
+	width: 100%;
+	height: 1700px;
+	/*background-color: black;*/
+}
+.detail5-buttom1{
+	width: 940px;
+	height: 1002px;
+}
+.detail5-specialty{
+	width: 940px;
+	height: 155px;
+	/*background-color: seagreen;*/
+}
+.detail5-specialty h4{
+	float: left;
+	padding-left: 0px;
+}
+.detail5-version{
+	width: 940px;
+	height: 45px;
+	padding-top: 100px;
+	/*background-color: sandybrown;*/
+}
+.detail5-version span{
+	float: left;
+	text-align: left;
+}
+.detail5-specialty2{
+	width: 940px;
+	height: 787px;
+	margin-top: 30px;
+	float:left;
+	/*margin-left: 279px;*/
+	/*background-color: slateblue;*/
+}
+.detail5-specialty2 h3{
+  font-size: 30px;
+  font-weight: 700;
+  color: #127749;
+	float: left;
+}
+.detail5-specialty2 h4{
+  font-weight: 700;
+	float: left;
+}
+.detail5-specialty2 span{
+	float: left;
+	text-align: left;
+}
+.detail5-capsid{
+	width: 280px;
+	height: 787px;
+	float: left;
+	margin-right: 50px;
+	/*background-color: violet;*/
+}
+
+.d5-capsid{
+	width: 280px;
+	height: 56px;
+	border-bottom: 1px solid #dadada;
+}
+
+.d5-capsid2{
+	width: 280px;
+	height: 105px;
+	margin-bottom: 15px;
+	/*background-color: darkblue;*/
+}
+.d5-capsid3{
+	width: 280px;
+	height: 86px;
+	margin-bottom: 15px;
+	/*background-color: darkcyan;*/
+}
+.d5-capsid2 h4{
+	float: left;
+}
+.d5-capsid3 span{
+	float: left;
+	text-align: left;
+}
+.detail5-core{
+	width: 280px;
+	height: 787px;
+	float: left;
+	margin-right: 50px;
+	/*background-color: cadetblue;*/
+}
+.detail5-watchband{
+	width: 280px;
+	height: 787px;
+	float: left;
+	/*background-color: crimson;*/
+}
+.detail6{
+	width: 100%;
+	height: 200px;
+	float: left;
+	line-height: 200px;
+	/*background-color: rosybrown;*/
+}
+.detail6 a{
+	background-color: #127749;
+}
+.bottom-picture{
+	width: 100%;
+	height: 600px;
+	float: left;
+}
+
+
+/*------------------底部---------------------*/
+
+.content-bottom{
+	width: 100%;
+	height: 816px;
+	float: left;
+	margin-top: 200px;
+	background-color: #212121;
+}
+.content-bottom-entire{
+	width: 90%;
+	height: 610px;
+	margin: 140px auto auto auto;
+	border-bottom: 1px solid #333333;
+}
+.content-bottom-enentire{
+	width: 845px;
+	height: 606px;
+	margin: 0px auto;
+}
+.content-bottom-enentire-element{
+	width: 275px;
+	height: 606px;
+	float: left;
+	margin-right: 10px;
+}
+.content-bottom-enentire-element-r{
+	width: 275px;
+	height: 606px;
+	float: left;
+}
+.content-bottom-word-title{
+	width: 275px;
+	height: 23px;
+	color: #EEEEEE;
+	font-size: 13px;
+	line-height: 23px;
+	border-bottom: 1px solid #333333;
+	float: left;
+}
+.content-bottom-list{
+	width: 275px;
+	height: 225px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+.content-bottom-list ul{
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+.content-bottom-list ul li{
+	line-height: 13px;
+	margin-top: 10px;
+}
+
+.content-bottom-list2{
+	width: 275px;
+	height: 46px;
+	line-height: 26px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+	margin-top: 10px;
+}
+
+.content-bottom-list3{
+	width: 275px;
+	height: 130px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+.content-bottom-list3 ul{
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+.content-bottom-list3 ul li{
+	line-height: 13px;
+	margin-top: 10px;
+}

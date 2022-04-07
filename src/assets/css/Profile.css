@@ -1,0 +1,188 @@
+.entire{
+	width: 100%;
+	height: 100%;
+}
+.content_top{
+	height: 427px;
+	width: 100%;
+	background-color: #000066;
+  background: url(../../../static/img/profile/homepage_classic_watches_cover_0001_1800x720.jpg) repeat-x;
+  background-size: cover;
+}
+.content_top-info{
+	height: 427px;
+	width: 100%;
+	/*margin-top: 60px;*/
+	text-align: center;
+	/*float: left;*/
+}
+.content_top-info-mycenter{
+	/*height: 32px;
+	margin: 0px 0px 28px;
+	color: white;
+	font-size: 32px;
+	font-family: "微软雅黑";*/
+	/*font-weight: 300;
+	line-height: 32px;*/
+	line-height: 427px;
+	font-weight: bold;
+	font-size: 57px;
+	color: white;
+	margin: 0px;
+}
+
+.content_middle{
+	height: 580px;
+	width: 98%;
+	margin: 11px 1% 0px;
+	background-color: #E7E7E7;
+
+}
+.content_middle-favorite-in{
+	width: 100%;
+	height: 340px;
+	padding: 120px 0px 67px;
+	text-align: center;
+}
+.content_middle-favorite-img{
+	height: 252px;
+	width: 252px;
+	margin: auto;
+	margin-bottom: 22px;
+}
+.content_middle-favorite-img-in{
+	height: 252px;
+	border-radius: 50%;
+}
+.content_middle-favorite-a{
+	text-decoration: none;
+	line-height: 36px;
+	height: 36px;
+	width: 105px;
+	color: #1B1B1B;
+	font-family:  "微软雅黑";
+	font-size: 32px;
+	padding: 0px 15px;
+
+}
+.content_middle-favorite-a:hover{
+	color: #127749;
+}
+.content_middle-favorite-explain{
+	font-size: 14px;
+	font-family:  "微软雅黑";
+	margin: 12px 0px 0px;
+	color: #666666;
+	font-style: italic;
+}
+.content_bottom{
+	height: 232px;
+	width: 98%;
+	margin: 0px 1% 15px;
+	background-color: #E7E7E7;
+}
+
+.content_bottom-myorder{
+	height: 140px;
+	width: 33.33%;
+	border-top: 1px solid #FFFFFF;
+	padding: 46px 0px;
+	text-align: center;
+	float: left;
+}
+.content_bottom-myorder-in{
+	height: 58px;
+	border-right: 1px solid #FFFFFF;
+	padding: 16px 0px 65px;
+	line-height: 20px;
+}
+.content_bottom-myorder-a{
+	height: 20px;
+	color: #1B1B1B;
+	font-size: 20px;
+	font-family:  "微软雅黑";
+	text-decoration: none;
+}
+.content_bottom-myorder-a:hover{
+	color: #127749;
+}
+.content_bottom-myorder-explain{
+	font-size: 14px;
+	font-family:  "微软雅黑";
+	margin: 22px 0px 0px;
+	color: #666666;
+	font-style: italic;
+}
+
+.content_bottom-myaccount{
+	height: 140px;
+	width: 33.33%;
+	border-top: 1px solid #FFFFFF;
+	padding: 46px 0px;
+	text-align: center;
+	float: left;
+}
+.content_bottom-myaccount-in{
+	height: 58px;
+	border-right: 1px solid #FFFFFF;
+	padding: 16px 0px 65px;
+	line-height: 20px;
+}
+.content_bottom-myaccount-a{
+	height: 20px;
+	color: #1B1B1B;
+	font-size: 20px;
+	font-family:  "微软雅黑";
+	text-decoration: none;
+}
+.content_bottom-myaccount-a:hover{
+	color: #127749;
+}
+.content_bottom-myaccount-explain{
+	font-size: 14px;
+	font-family:  "微软雅黑";
+	margin: 22px 0px 0px;
+	color: #666666;
+	font-style: italic;
+}
+
+.content_bottom-myaddress{
+	height: 140px;
+	width: 33.33%;
+	border-top: 1px solid #FFFFFF;
+	padding: 46px 0px;
+	text-align: center;
+	float: left;
+}
+.content_bottom-myaddress-in{
+	height: 58px;
+	border-right: 1px solid #FFFFFF;
+	padding: 16px 0px 65px;
+	line-height: 20px;
+}
+.content_bottom-myaddress-a{
+	height: 20px;
+	color: #1B1B1B;
+	font-size: 20px;
+	font-family:  "微软雅黑";
+	text-decoration: none;
+}
+.content_bottom-myaddress-a:hover{
+	color: #127749;
+}
+.content_bottom-myaddress-explain{
+	font-size: 14px;
+	font-family:  "微软雅黑";
+	margin: 22px 0px 0px;
+	color: #666666;
+	font-style: italic;
+}
+.content_bottom-myaddress-explain-a{
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+	font-family:  "微软雅黑";
+	margin: 22px 0px 0px;
+	color: #666666;
+	font-style: italic;
+}

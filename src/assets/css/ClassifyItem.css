@@ -1,0 +1,23 @@
+.watch-list-elementc{
+	width: 373px;
+	height: 423px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: white;
+}
+.watch-list-elementc img{
+	width: 373px;
+	height: 423px;
+	float: left;
+}
+.img-wordc{
+	width: 373px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: rgba(6, 150, 13, 0.808);
+	position: relative;
+	bottom: 400px;
+}

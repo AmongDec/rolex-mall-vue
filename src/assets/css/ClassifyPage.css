@@ -1,0 +1,67 @@
+.mp4{
+	width: 100%;
+	height: 470px;
+	z-index: 0;
+}
+.mp4 video{  
+    height:100%;  
+    width: 100%;  
+   
+    filter: blur(15px);
+    -webkit-filter: grayscale(100%);  
+    filter:grayscale(50%); 
+    object-fit: fill;
+    z-index:-11
+}  
+.mp4 source{  
+    min-width: 100%;  
+    min-height: 100%;  
+    height: 100%;  
+    width: 100%;  
+}
+.mp4-word{
+	width: 100%;
+	height: 60px;
+	font-size: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-weight: 100;
+	position: relative;
+	color: white;
+	bottom: 300px;
+}
+.mp4-words{
+	width: 100%;
+	height: 35px;
+	font-size: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-weight: 100;
+	position: relative;
+	color: white;
+	bottom: 290px;
+}
+.mid-word{
+	width: 100%;
+	height: 300px;
+	float: left;
+}
+.mid-word-entire{
+	width: 600px;
+	height: 84px;
+	margin: 80px auto auto auto;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+}
+.watch-list{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.watch-list-entire{
+	width: 1150px;
+	height: auto;
+	margin: 0px auto;
+}

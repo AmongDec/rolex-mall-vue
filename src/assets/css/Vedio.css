@@ -1,0 +1,62 @@
+.mp4{
+  width: 100%;
+  height: 940px;
+  z-index: 0;
+}
+.mp4 video{
+  height:100%;
+  width: 100%;
+  /*加滤镜*/
+  /*filter: blur(15px); //背景模糊设置 */
+  /*-webkit-filter: grayscale(100%);*/
+  /*filter:grayscale(100%); //背景灰度设置*/
+  object-fit: fill;
+  z-index:-11
+}
+.mp4 source{
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+.mp4-content{
+  width: 500px;
+  height: 140px;
+  position: relative;
+  bottom: 250px;
+  left: 180px;
+}
+.mp4-content-word{
+  width: 500px;
+  height: 80px;
+  float: left;
+  color: white;
+  line-height: 80px;
+  font-family:"新宋体" ;
+  font-size: 60px;
+}
+.mp4-content-button{
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  float: left;
+  margin-top: 10px;
+  border-radius: 25px;
+  line-height: 45px;
+  text-align: center;
+  transition-duration: 1.2s;
+  cursor: pointer;
+}
+.mp4-content-button a{
+  font-size: 15px;
+  text-decoration: none;
+  color: #137749;
+}
+.mp4-content-button-h:hover{
+  transition-duration:1.2s;
+  transition-property: all;
+  background-color: #137749;
+}
+.mp4-content-button-h:hover a{
+  color: white;
+}

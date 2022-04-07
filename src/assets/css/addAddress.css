@@ -1,0 +1,372 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+.navi{
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255,255,255,0);
+	position: fixed;
+	text-align: center;
+	z-index: 100;
+	transition-duration: 1.2s;
+}
+.navi-h:hover{
+	background-color: rgba(255,255,255,1);
+	transition-duration:1.2s;
+}
+.menus{
+	width: 50px;
+	height: 50px;
+	color: white;
+	margin-left: 30px;
+	margin-top: 35px;
+	float: left;
+}
+.navi-h:hover .menus a{
+	color: #137749;
+}
+.navi-h:hover .menus p{
+	color: #137749;
+}
+.menus a{
+	text-decoration: none;
+	font-size: 25px ;
+	font-weight: 100;
+	color: white;
+}
+.menus p{
+	margin-top:  2px ;
+	font-size: 13px;
+}
+.three-label{
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 35px;
+	font-size: 13px;
+}
+.three-label a{
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+.navi-h:hover .three-label a{
+	color: #137749;
+}
+.three-label1{
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 45px;
+	font-size: 13px;
+}
+.three-label1 a{
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+.navi-h:hover .three-label1 a{
+	color: #137749;
+}
+.rolex-logo{
+	margin-top: 10px;
+	width: 100px;
+	height: 70px;
+	position: relative;
+	right: 4%;
+	filter: grayscale(100%);
+}
+.navi-h:hover .rolex-logo{
+	filter: grayscale(20%);
+	transition-duration:1.2s;
+}
+.series{
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+}
+.series a{
+	text-decoration: none;
+	font-size: 20px ;
+	color: white;
+}
+.series p{
+	margin-top:  12px ;
+	font-size: 13px;
+}
+.navi-h:hover .series a{
+	color: #137749;
+}
+.navi-h:hover .series p{
+	color: #137749;
+}
+.search{
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.search a{
+	text-decoration: none;
+	font-size: 20px ;
+	color: white;
+}
+.search p{
+	margin-top:  12px ;
+	font-size: 13px;
+}
+.navi-h:hover .search a{
+	color: #137749;
+}
+.navi-h:hover .search p{
+	color: #137749;
+}
+/*-- --------------头部------------------*/
+
+.address-bground{
+	width: 100%;
+  background-color: #FFFFFF;
+  margin-top: -20px;
+}
+.address-add-title{
+	width: 100%;
+	height: 427px;
+	background: url(../../../static/img/address/MyaddressBG.png)repeat-x;
+	background-size: cover;
+	color: white;
+}
+.address-add-title h1{
+	line-height: 427px;
+	font-weight: bold;
+	font-size: 57px;
+	color: white;
+}
+.address-add-info{
+	width: 1308px;
+	height: 800px;
+	background-color: #E7E7E7;
+}
+.address-add-title111{
+	width: 800px;
+	height: 120px;
+	margin-top: 50px;
+	/*background-color: seagreen;*/
+	border-bottom: 1px solid #dadada;
+}
+.address-add-title111 h1{
+	line-height: 90px;
+}
+.address-add-title222{
+	width: 800px;
+	height: 70px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	/*background-color: seagreen;*/
+}
+.address-add-title222 h4{
+	text-align: left;
+}
+.address-add-title222 p{
+	text-align: left;
+}
+.appellation-name{
+	width: 800px;
+	height: 90px;
+	/*background-color: darkblue;*/
+}
+.appellation-name label{
+	text-align: left;
+	float: left;
+}
+.appellation-name input{
+	float: left;
+	width: 315px;
+	height: 40px;
+}
+.appellation-name select{
+	float: left;
+	width: 140px;
+	height: 40px;
+}
+.address-appellation{
+	width: 140px;
+	height: 90px;
+	float: left;
+	margin-right: 15px;
+	/*background-color: saddlebrown;*/
+}
+.address-family-name{
+	width: 315px;
+	height: 90px;
+	float: left;
+	margin-right: 15px;
+	/*background-color: darkcyan;*/
+}
+.address-last-name{
+	width: 315px;
+	height: 90px;
+	float: left;
+	/*background-color: darkcyan;*/
+}
+.address-add-city{
+	width: 800px;
+	height: 90px;
+	/*background-color: darkblue;*/
+}
+.address-add-city label{
+	text-align: left;
+	float: left;
+	margin-top: 12px;
+}
+.address-add-city select{
+	width: 220px;
+	height: 40px;
+	float: left;
+}
+.address-city-sheng{
+	width: 265px;
+	height: 45px;
+	float: left;
+	line-height: 45px;
+	/*background-color: sandybrown;*/
+}
+.address-city-detail{
+	width: 800px;
+	height: 90px;
+	/*background-color: darkblue;*/
+}
+.address-city-detail label{
+	margin-top: 20px;
+	float: left;
+}
+.address-city-detail input{
+	width: 800px;
+	height: 40px
+}
+.address-phone{
+	width: 800px;
+	height: 90px;
+	/*background-color: darkblue;*/
+}
+.address-86{
+	width: 200px;
+	height: 90px;
+	float: left;
+	/*background-color: darkcyan;*/
+}
+.address-86 select{
+	width: 200px;
+	height: 40px;
+}
+.address-86 label{
+	float: left;
+	margin-top: 20px;
+}
+.address-phone-number{
+	width: 580px;
+	height: 90px;
+	float: left;
+	margin-left: 19px;
+}
+.address-phone-number input{
+	width: 580px;
+	height: 40px;
+	float: left;
+	margin-top: 48px;
+}
+.save{
+	width: 800px;
+	height: 100px;
+	padding-top: 50px;
+}
+.save button{
+	width: 220px;
+	background-color: #127749;
+}
+
+
+/*--------------底部---------------*/
+.content-bottom{
+	width: 100%;
+	height: 816px;
+	float: left;
+	margin-top: 200px;
+	background-color: #212121;
+}
+.content-bottom-entire{
+	width: 90%;
+	height: 610px;
+	margin: 140px auto auto auto;
+	border-bottom: 1px solid #333333;
+}
+.content-bottom-enentire{
+	width: 845px;
+	height: 606px;
+	margin: 0px auto;
+}
+.content-bottom-enentire-element{
+	width: 275px;
+	height: 606px;
+	float: left;
+	margin-right: 10px;
+}
+.content-bottom-enentire-element-r{
+	width: 275px;
+	height: 606px;
+	float: left;
+}
+.content-bottom-word-title{
+	width: 275px;
+	height: 23px;
+	color: #EEEEEE;
+	font-size: 13px;
+	line-height: 23px;
+	border-bottom: 1px solid #333333;
+	float: left;
+}
+.content-bottom-list{
+	width: 275px;
+	height: 225px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+.content-bottom-list ul{
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+.content-bottom-list ul li{
+	line-height: 13px;
+	margin-top: 10px;
+}
+
+.content-bottom-list2{
+	width: 275px;
+	height: 46px;
+	line-height: 26px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+	margin-top: 10px;
+}
+
+.content-bottom-list3{
+	width: 275px;
+	height: 130px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+.content-bottom-list3 ul{
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+.content-bottom-list3 ul li{
+	line-height: 13px;
+	margin-top: 10px;
+}

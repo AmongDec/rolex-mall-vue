@@ -1,0 +1,122 @@
+.personal-entire{
+  width: 100%;
+  height: 40px;
+  float: left;
+  margin-top: 200px;
+}
+.personal-title{
+  width: 1720px;
+  height: 40px;
+  margin: 0px auto;
+  text-align: left;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  border-top: 2px solid #898F94 ;
+  color: #000000;
+}
+.personal-picture-entire{
+  width: 100%;
+  height: 620px;
+  margin-top: 20px;
+  float: left;
+
+}
+.personal-picture{
+  width: 1720px;
+  height: 620px;
+  margin: 0px auto;
+  white-space: nowrap;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+.progress-entire{
+  width: 1720px;
+  height: 50px;
+  margin: -350px auto;
+  z-index: 919;
+}
+.personal-picture-element{
+  width: 780px;
+  height: 620px;
+  margin-right: 10px;
+  position: relative;
+  background-color: #137749;
+  display: inline-block;
+  overflow: hidden;
+  z-index: -1;
+  cursor: pointer;
+}
+
+.personal-picture-element-word{
+  width: 780px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 600px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  z-index: 100;
+}
+.personal-picture-element img{
+  width: 780px;
+  height: 620px;
+
+  transition-duration: 1.2s;
+}
+.personal-picture-element img:hover{
+  transform: scale(1.1);
+}
+.personal-progress-entire{
+  width: 100%;
+  height: 3px;
+  margin-top: 20px;
+  float: left;
+}
+.personal-progress{
+  width: 1720px;
+  height: 4px;
+  margin: 0px auto;
+  background-color: #BCB9B9;
+}
+
+.personal-progress-element-s{
+  width: 286px;
+  height: 4px;
+  float: left;
+  position: relative;
+  background-color: #000000;
+}
+.personal-cut-button-left{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+  float: left;
+}
+.personal-progress-entire-h:hover .personal-cut-button-left{
+  transition-duration: 2s;
+  display: inline-block;
+}
+
+.personal-cut-button-right{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  float: right;
+  display: none;
+}
+.personal-progress-entire-h:hover .personal-cut-button-right{
+  transition-duration: 2s;
+  display: inline-block;
+}

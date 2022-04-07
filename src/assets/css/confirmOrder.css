@@ -1,0 +1,744 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*弹窗*/
+
+div {
+	padding: 0;
+	margin: 0;
+}
+
+.cover {
+	background: rgba(0, 0, 0, 0.64);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 101;
+}
+
+.pop_box {
+	width: 74%;
+	margin: 0 auto;
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	margin-left: -17%;
+	z-index: 102;
+}
+
+.pop_img img {
+	width: 100%;
+}
+
+.pop_center {
+	/*background: url(img/kuang1.png) no-repeat;*/
+	/*background-size:120px 44px ;*/
+	min-height: 44px;
+	margin-left: -9px;
+}
+
+.pop_center span {
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	line-height: 30px;
+	margin-left: 15%;
+}
+
+a:hover {
+	color: white;
+}
+
+a {
+	color: white;
+}
+
+a:link {
+	/* 指正常的未被访问过的链接*/
+	text-decoration: none;
+	/*去掉下划线*/
+}
+
+.navi {
+	width: 100%;
+	height: 90px;
+	background-color: rgba(255, 255, 255, 0);
+	position: fixed;
+	text-align: center;
+	z-index: 100;
+	transition-duration: 1.2s;
+}
+
+.navi-h:hover {
+	background-color: rgba(255, 255, 255, 1);
+	transition-duration: 1.2s;
+}
+
+.menus {
+	width: 50px;
+	height: 50px;
+	color: white;
+	margin-left: 30px;
+	margin-top: 35px;
+	float: left;
+}
+
+.navi-h:hover .menus a {
+	color: #137749;
+}
+
+.navi-h:hover .menus p {
+	color: #137749;
+}
+
+.menus a {
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 100;
+	color: white;
+}
+
+.menus p {
+	margin-top: 2px;
+	font-size: 13px;
+}
+
+.three-label {
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 35px;
+	font-size: 13px;
+}
+
+.three-label a {
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+
+.navi-h:hover .three-label a {
+	color: #137749;
+}
+
+.three-label1 {
+	height: 15px;
+	float: left;
+	margin-top: 59px;
+	margin-left: 45px;
+	font-size: 13px;
+}
+
+.three-label1 a {
+	text-decoration: none;
+	font-weight: 100;
+	color: white;
+}
+
+.navi-h:hover .three-label1 a {
+	color: #137749;
+}
+
+.rolex-logo {
+	margin-top: 10px;
+	width: 100px;
+	height: 70px;
+	position: relative;
+	right: 4%;
+	filter: grayscale(100%);
+}
+
+.navi-h:hover .rolex-logo {
+	filter: grayscale(20%);
+	transition-duration: 1.2s;
+}
+
+.series {
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+}
+
+.series a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.series p {
+	margin-top: 12px;
+	font-size: 13px;
+}
+
+.navi-h:hover .series a {
+	color: #137749;
+}
+
+.navi-h:hover .series p {
+	color: #137749;
+}
+
+.search {
+	width: 96px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.search a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+
+.search p {
+	margin-top: 12px;
+	font-size: 13px;
+}
+
+.navi-h:hover .search a {
+	color: #137749;
+}
+
+.navi-h:hover .search p {
+	color: #137749;
+}
+
+
+/*-- --------------头部------------------*/
+
+.entire {
+	/*最底板*/
+	width: 100%;
+	background-color: white;
+	/*padding: 20px;*/
+}
+
+.car-bground {
+	width: 100%;
+  height: 427px;
+  margin-top: -40px;
+	background: url(../../../static/img/shopcar/carBground.png)repeat-x;
+	background-size: cover;
+}
+
+.car-bground h1 {
+	line-height: 427px;
+	font-weight: bold;
+	font-size: 57px;
+	color: white;
+	text-align: center;
+}
+
+.content {
+	/*底板*/
+	width: 1309px;
+	margin: auto;
+	background-color: #e7e7e7;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+
+/*----------------------------------- 一、 配送地址  礼品包装和留言（左） ----------------------------------------*/
+
+.content_left {
+	width: 830px;
+	/*background-color: bisque;*/
+	float: left;
+	margin-right: 30px;
+}
+
+
+/* 1. 手机号码*/
+
+.content_left-phone {
+	background: #F5F5F5;
+	padding: 15px;
+	font-size: 12px;
+	color: #313131;
+}
+
+.content_left-phone_phNumMsg {
+	margin-bottom: 10px;
+	line-height: 12px;
+}
+
+.content_left-phone_number {
+	line-height: 12px;
+	color: #999999;
+}
+
+
+/* 2. 配送地址*/
+
+.content_left-deliveryAddress {
+	padding: 38px 0px;
+	border-bottom: 1px solid white;
+}
+
+.top {
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.content_left-deliveryAddress_dAddress {
+	float: left;
+	color: #313131;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.content_left-deliveryAddress_edit {
+	float: right;
+	font-size: 12px;
+	line-height: 32px;
+	margin: 0 15px 0 0;
+	text-decoration: underline;
+	color: #1b1b1b;
+}
+
+.down_left {
+	float: left;
+	width: 220px;
+	margin-left: 20px;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
+.down_leftRight {
+	float: left;
+	width: 580px;
+	margin-left: 48px;
+	font-size: 12px;
+}
+
+.down_left-Pname {
+	font-weight: bold;
+	color: #1b1b1b;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.down_left-Paddress {
+	line-height: 17px;
+	color: #313131;
+}
+
+.down_left-Pphone {
+	line-height: 12px;
+	color: #313131;
+}
+
+.down_right {
+	float: left;
+	margin-left: 86px;
+	width: 45%;
+	max-width: 270px;
+	font-size: 12px;
+	color: #313131;
+	line-height: 12px;
+}
+
+.down_right-Ptype {
+	font-weight: bold;
+	color: #1b1b1b;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+
+/* 3. 礼品包装和留言*/
+
+.content_left-giftMessage {
+	padding: 38px 0px;
+	border-bottom: 1px solid white;
+}
+
+
+/*----------------------------------- 二、确认购买的商品信息（右） ----------------------------------------*/
+
+.content_right {
+	width: 295px;
+	/*height: 483px;*/
+	background-color: aquamarine;
+	float: left;
+	background-color: #ffffff;
+	padding: 0 25px;
+}
+
+
+/* 1. 购买的商品件数*/
+
+.content_right-OrderSubtotal {
+	width: 295px;
+	height: 54px;
+	/*background-color: antiquewhite;*/
+	border-bottom: 1px solid #E7E7E7;
+	/*text-align: left;*/
+	line-height: 54px;
+	font-size: 16px;
+	color: #999999;
+	text-align: center;
+}
+
+.content_right-OrderSubtotal img {
+	height: 28px;
+	margin-bottom: -10px;
+}
+
+
+/* 2. 购买的商品信息  */
+
+.content_right-shopMsg {
+	width: 295px;
+	height: 105px;
+	padding: 20px 0 15px;
+	border-bottom: 1px solid #E7E7E7;
+	font-size: 14px;
+	color: #999999;
+	/*text-align: center;*/
+}
+
+.content_right-shopMsg_left {
+	float: left;
+	text-align: center;
+	line-height: initial;
+	width: 62px;
+	height: 62px;
+}
+
+.content_right-shopMsg_left img {
+  width: 60px;
+  height: 60px;
+	margin-top: -7px;
+}
+
+
+/*--------copy过来的样式----------*/
+
+.content_left-bottom_msg {
+	width: 173px;
+	float: left;
+	/*padding-top: 40px;*/
+	/*background-color: #7FFFD4;*/
+}
+
+.content_left-bottom_msg-up {
+	height: 75px;
+	/*border-right: 1px solid #dbdada;*/
+}
+
+.content_left-bottom_msg-up_name {
+	font-size: 13px;
+	color: #5b5b3e;
+	font-weight: bold;
+	line-height: 13px;
+	/*margin-bottom: 50px;*/
+}
+
+.content_left-bottom_msg-up_name2 {
+	font-size: 12px;
+	line-height: 12px;
+	/*color: #5b5b3e;*/
+	/*margin-bottom: 50px;*/
+}
+
+.content_left-bottom_msg-up_design {
+	color: #999999;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.content_left-bottom_msg-up_design2 {
+	font-size: 11px;
+}
+
+.content_left-bottom_msg-mid {
+	/*padding-bottom: 20px;*/
+	height: 25px;
+}
+
+
+/*---------封尾(承前)----------*/
+
+.content_right-shopMsg_right {
+	/*float: right;*/
+	font-size: 12px;
+	line-height: 12px;
+}
+
+.content_right-shopMsg_right-num {
+	float: right;
+	margin-bottom: 86px;
+}
+
+.content_right-shopMsg_right-monny {
+	float: right;
+	font-weight: bold;
+	color: #1b1b1b;
+	margin-top: -20px;
+}
+
+
+/* 3. 总计 */
+
+.content_right-amount {
+	width: 295px;
+	height: 94px;
+	padding: 25px 0 34px;
+	border-bottom: 1px solid #E7E7E7;
+	font-size: 12px;
+	color: #313131;
+}
+
+.content_right-amount_shopAmount {
+	margin-bottom: 16px;
+}
+
+.content_right-amount_shopAmount>span {
+	color: #666666;
+	float: right;
+}
+
+.content_right-amount_carriage {
+	margin-bottom: 23px;
+}
+
+.content_right-amount_carriage>span {
+	float: right;
+	color: #999;
+}
+
+.content_right-amount_superAmount {
+	margin-bottom: 0;
+	line-height: 26px;
+}
+
+.sign {
+	font-size: 20px;
+	margin-right: -5px;
+	font-weight: bold;
+	color: #1b1b1b;
+}
+
+.content_right-amount_superAmount>span {
+	float: right;
+	font-size: 18px;
+	/*color: #666666;*/
+	line-height: 22px;
+}
+
+
+/*提交订单*/
+
+.content_right-subsmitOrder {
+	width: 295px;
+	height: 80px;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 15px 0 16px 0;
+	font-size: 12px;
+	margin-bottom: 25px;
+	line-height: 20px;
+	color: #4B4B4B;
+}
+
+.content_right-subsmitOrder a:hover {
+	color: black;
+}
+
+.accept {
+	color: #000000;
+}
+
+.accept:link {
+	margin-left: -3px;
+	text-decoration: underline;
+}
+
+.content_right-subsmitOrder_sO {
+	background: #127749;
+	border: 2px solid #127749;
+	cursor: pointer !important;
+	opacity: 1;
+  height: 40px;
+  width: 280px;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+}
+.content_right-subsmitOrder_sO:hover{
+  color: #127749;
+  background: white;
+}
+
+
+.content_right-subsmitOrder_sO input {
+	color: white;
+	background-color: #127749;
+	border: none;
+}
+
+input:focus {
+	outline: 0;
+}
+
+sub:focus {
+	outline: 0;
+}
+
+
+/*.sO{
+	color: white;
+}*/
+
+
+/*.sO:hover{
+	color: #127749;
+
+}*/
+
+
+/*.content_right-subsmitOrder_sO:hover{
+	background:white;
+	border: 2px solid #127749;
+	color: #127749;
+	cursor: default !important;
+	opacity: 1;
+	height: 40px;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 40px;
+}*/
+
+
+/* 5. 说明  */
+
+.content_right-explain {
+	width: 295px;
+	height: 100px;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 15px 0 16px 0;
+	font-size: 12px;
+	margin-bottom: 25px;
+	line-height: 20px;
+	color: #999999;
+	font-style: italic;
+}
+
+.content_right-explain>span {
+	display: block;
+	margin-bottom: 19px;
+	color: #999999;
+	font-style: normal;
+}
+
+
+/*------------------------------------ 三、空白盒子:为了解决“让div父元素的高度随子元素高度的变化而变化” -------------------------------------------------------------*/
+
+.clear {
+	clear: both;
+}
+
+
+/* 清除空白盒子的所有浮动 */
+
+.content-bottom {
+	width: 100%;
+	height: 816px;
+	float: left;
+	margin-top: 200px;
+	background-color: #212121;
+}
+
+.content-bottom-entire {
+	width: 90%;
+	height: 610px;
+	margin: 140px auto auto auto;
+	border-bottom: 1px solid #333333;
+}
+
+.content-bottom-enentire {
+	width: 845px;
+	height: 606px;
+	margin: 0px auto;
+}
+
+.content-bottom-enentire-element {
+	width: 275px;
+	height: 606px;
+	float: left;
+	margin-right: 10px;
+}
+
+.content-bottom-enentire-element-r {
+	width: 275px;
+	height: 606px;
+	float: left;
+}
+
+.content-bottom-word-title {
+	width: 275px;
+	height: 23px;
+	color: #EEEEEE;
+	font-size: 13px;
+	line-height: 23px;
+	border-bottom: 1px solid #333333;
+	float: left;
+}
+
+.content-bottom-list {
+	width: 275px;
+	height: 225px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+
+.content-bottom-list ul {
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+
+.content-bottom-list ul li {
+	line-height: 13px;
+	margin-top: 10px;
+}
+
+.content-bottom-list2 {
+	width: 275px;
+	height: 46px;
+	line-height: 26px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+	margin-top: 10px;
+}
+
+.content-bottom-list3 {
+	width: 275px;
+	height: 130px;
+	float: left;
+	font-size: 13px;
+	color: #EEEEEE;
+}
+
+.content-bottom-list3 ul {
+	list-style-type: none;
+	position: relative;
+	right: 38px;
+}
+
+.content-bottom-list3 ul li {
+	line-height: 13px;
+	margin-top: 10px;
+}
